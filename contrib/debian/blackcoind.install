@@ -1,0 +1,2 @@
+debian/bin/WuJinCoind usr/bin
+src/WuJinCoind usr/lib/WuJinCoin
