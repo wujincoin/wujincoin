@@ -97,13 +97,7 @@ public:
 	         }
 	   }
 
-     /*    ofstream f;
-        f.open("1.txt");
-        f<<"Hash = "<<hashGenesisBlock.ToString()<<"\n";
-        f<<"hashMerkleRoot = "<<genesis.hashMerkleRoot.ToString()<<"\n";
-        f<<"nTime ="<<genesis.nTime<<"\n";
-        f<<"nNonce ="<<genesis.nNonce<<"\n";
-        f.close(); */
+  
 		
         assert(hashGenesisBlock == uint256("0x8258dd8357abefb356b12204320e122cd36977253c8c8a67d2a8eb7b261b0b07"));
         assert(genesis.hashMerkleRoot == uint256("0x37ffffe10ee72193ce02dfd3077fd8d3171dfdb92e2fae030ca2d2d66f49abe5"));
@@ -176,13 +170,7 @@ public:
 		        }
 	         }
 	   }
-     /*    ofstream f;
-        f.open("2.txt");
-        f<<"Hash = "<<hashGenesisBlock.ToString()<<"\n";
-        f<<"hashMerkleRoot = "<<genesis.hashMerkleRoot.ToString()<<"\n";
-        f<<"nTime ="<<genesis.nTime<<"\n";
-        f<<"nNonce ="<<genesis.nNonce<<"\n";
-        f.close(); */
+     
 
         assert(hashGenesisBlock == uint256("0xfbf12ea578c601c7234d33829e596cd599981460cf97ca3440149aea0f83f641"));
 
@@ -237,13 +225,7 @@ public:
 	   }
         hashGenesisBlock = genesis.GetHash();
 		
-/*         ofstream f;
-        f.open("3.txt");
-        f<<"Hash = "<<hashGenesisBlock.ToString()<<"\n";
-        f<<"hashMerkleRoot = "<<genesis.hashMerkleRoot.ToString()<<"\n";
-        f<<"nTime ="<<genesis.nTime<<"\n";
-        f<<"nNonce ="<<genesis.nNonce<<"\n";
-        f.close(); */
+
         assert(hashGenesisBlock == uint256("0x73a1c354b4166496de177941b405926b29f7612c719706041d6c9c0887953412"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
