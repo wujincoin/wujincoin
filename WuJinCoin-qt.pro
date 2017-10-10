@@ -23,19 +23,6 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
-BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
-BOOST_INCLUDE_PATH=D:/deps/boost_1_57_0
-BOOST_LIB_PATH=D:/deps/boost_1_57_0/stage/lib
-BDB_INCLUDE_PATH=D:/deps/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=D:/deps/db-4.8.30.NC/build_unix
-OPENSSL_INCLUDE_PATH=D:/deps/openssl-1.0.1e/include
-OPENSSL_LIB_PATH=D:/deps/openssl-1.0.1e
-MINIUPNPC_INCLUDE_PATH=D:/deps/miniupnpc-1.8/miniupnpc
-MINIUPNPC_LIB_PATH=D:/deps/miniupnpc-1.8
-#LIBPNG_INCLUDE_PATH=D:/deps/libpng-1.6.16
-#LIBPNG_LIB_PATH=D:/deps/libpng-1.6.16/.libs
-QRENCODE_INCLUDE_PATH=D:/deps/qrencode-3.4.3
-QRENCODE_LIB_PATH=D:/deps/qrencode-3.4.3/.libs
 
 OBJECTS_DIR = build
 MOC_DIR = build
